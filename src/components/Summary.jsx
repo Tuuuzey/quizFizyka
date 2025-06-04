@@ -14,19 +14,19 @@ export default function Summary({ userAnswers }) {
   return (
     <div id="summary">
       <img src={quizCompleteImage} alt="Trophy icon" />
-      <h2>Quiz Complete</h2>
+      <h2>Quiz skończony</h2>
       <div id="summary-stats">
         <p>
           <span className="number">{correctAnswersShare}%</span>
-          <span className="text">Correct answers</span>
+          <span className="text">Poprawne odpowiedzi</span>
         </p>
         <p>
           <span className="number">{wrongAnswersShare}%</span>
-          <span className="text">Wrong answers</span>
+          <span className="text">Złe odpowiedzi</span>
         </p>
         <p>
           <span className="number">{skippedAnswersShare}%</span>
-          <span className="text">Skipped answers</span>
+          <span className="text">Pominięte odpowiedzi</span>
         </p>
       </div>
 
